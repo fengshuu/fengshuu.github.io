@@ -1,0 +1,22 @@
+auto: true
+
+markdown: rdiscount
+
+highlighter: 'pygments'
+#paginate: 8
+permalink: /:title
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+#my
+name: “Fengshuu's Blog”
+title: Fengshuu's blog
+description: Everything about Fengshuu.
+url: http://Fengshuu.github.io
+feed: /atom.xml
+author_info: <a href="http://Fengshuu.github.io/">Fengshuu</a>
