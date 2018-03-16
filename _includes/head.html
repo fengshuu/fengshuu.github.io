@@ -1,0 +1,36 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>
+    {% if page.title == "Home" %}
+      {{ site.title }} &middot; {{ site.tagline }}
+    {% else %}
+      {{ page.title }} &middot; {{ site.title }}
+    {% endif %}
+  </title>
+
+  <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="{{ site.baseurl }}/public/favicon.ico">
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/atom.xml">
+  
+  <style type="text/css">
+    .tags a {
+    display: inline-block;
+    border: 1px solid  #9a9a9a;
+    border-radius: 999em;
+    padding: 0 10px;
+    line-height: 24px;
+    font-size: 12px;
+    color:  #9a9a9a;
+    text-decoration: none;
+    margin: 0 1px;
+    margin-bottom: 6px;
+    }
+    .tags a:hover, .tags a:active {
+      color: #0085a1 !important;
+      border: 1px solid  #0085a1;
+    }
+  </style>
+</head>
