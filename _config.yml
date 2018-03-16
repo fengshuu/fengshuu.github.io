@@ -1,8 +1,8 @@
 auto: true
 
-highlighter: 'pygments'
+highlighter: rouge
 #paginate: 8
-permalink: /:title
+permalink: pretty
 
 # Assets
 #
