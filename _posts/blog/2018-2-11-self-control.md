@@ -4,8 +4,6 @@ title: 意志力
 category: blog
 description: 如何锻炼，提高自己的意志力.
 tags:
-    - 生活
-    - 意志力
     - 自我提升
 ---
 ## 之前
