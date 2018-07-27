@@ -75,7 +75,7 @@ pre ol{margin-left:25px;list-style-type:decimal;}
     position: fixed;
     top: 0;
     left: 0;
-    width: 30%;
+    width: 33%;
     height: 100%;
     max-width: 500px;
     background:#000;
@@ -92,7 +92,7 @@ pre ol{margin-left:25px;list-style-type:decimal;}
 .project .aside{
     background-image:url('/images/ksenia-makagonova-229007.jpg')
 }
-.index-content .section { margin-left:30%; padding-top:80px; padding-right:15%; ;}
+.index-content .section { margin-left:34%; padding-top:80px;}
 
 .index-content .artical-list { width:70%; margin:0 auto; }
 .index-content .artical-list li { margin-bottom:70px; }
